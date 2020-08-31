@@ -28,13 +28,17 @@ Generate configuration file for all settings (Additional info regarding npx comm
 
 **npx wdio config -y**
 
-Check if JDK is isntalled:
+Check if JDK is installed:
 
 **java --version**
 
 And you get something like this:
 
 **java version "1.8.0_281" ...**
+
+If not, then instll it:
+
+**apt install default-jre**
 
 Selenium comes together with webdrver.io installation, but just to be sure, run following
 
