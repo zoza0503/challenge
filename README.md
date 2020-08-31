@@ -3,33 +3,43 @@
 Install node.js with node package manager if not installed already) - download it from: 
 
 ```https://www.npmjs.com/get-npm
+```
 
 Confirm Node is installed, by typing following command in your terminal:
 ```node -v
+```
 
 Confirm npm is installed, by typing following command in your terminal:
 ```npm -v
+```
 
 Create working directory and switch to it
 ```mkdir webdriverio-test && cd webdriverio-test
+```
 
 Initialize and install dependencies necessary to webdriver.io works correctly
 ```npm init -y
+```
 
 Install CLI (command line interface)
 ```npm i --save-dev @wdio/cli
+```
 
 Generate configuration file for all settings (Additional info regarding npx command: https://www.npmjs.com/package/npx)
 ```npx wdio config -y
+```
 
 Check if JDK is isntalled:
 ```java --version
+```
 
 And you get something like this:
-java version "1.8.0_281" ...
+```java version "1.8.0_281" ...
+```
 
 Selenium comes together with webdrver.io installation, but just to be sure, run following
-selenium-standalone
+```selenium-standalone
+```
 
 You will get answer similar to this (which means that you already have Selenium standalone server):
 No action provided ...
