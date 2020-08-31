@@ -64,29 +64,7 @@ NOTE: Above, both Chrome & Firefox setups added, since that both browser are add
 
 So, config file will looks like:
 
-
-**module.exports.config = {
-  runner: 'local',
-  sync: true,
-  logLevel: 'silent',
-  coloredLogs: true,
-  deprecationWarnings: true,
-  bail: 0,
-  reporters: ['spec'],
-  baseUrl: 'http://localhost',
-  waitforTimeout: 25000,
-  connectionRetryTimeout: 90000,
-  connectionRetryCount: 3,
-  framework: 'mocha',
-  mochaOpts: {
-    ui: 'bdd',
-    bail: true,
-    timeout: 99999999,
-  },
-  before: function() {
-    require('expect-webdriverio');
-  },
-};**
+[![second.png](https://i.postimg.cc/Y21QNkrp/second.png)](https://postimg.cc/CdxZY3nt)
 
 NOTE: bail:true is additional config, which give user when run tests, and step fail to not step test immediatelly, bu rather finish all steps and present results.
 Setup selenium in standalone mode
@@ -95,23 +73,7 @@ Setup selenium in standalone mode
 
 All dependencies are in package.json, should looks like the one below:
 
-**{
-  "name": "challenge",
-  "version": "1.0.0",
-  "description": "Repository to hold all challenge tests",
-  "main": "index.js",
-  "scripts": {},
-  "dependencies": {
-    "shelljs": "^0.8.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zoza0503/challenge.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "homepage": "github.com/zoza0503/challenge#readme"
-}**
+[![third.png](https://i.postimg.cc/L8hqWMpg/third.png)](https://postimg.cc/NKqfySLQ)
 
 Run test with folowing command:
 
