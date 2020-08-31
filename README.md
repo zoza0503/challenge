@@ -1,10 +1,7 @@
 # challenge
 
 Install node.js with node package manager if not installed already) - download it from: 
-
-
-```https://www.npmjs.com/get-npm
-```
+*https://www.npmjs.com/get-npm*
 
 Confirm Node is installed, by typing following command in your terminal:
 
