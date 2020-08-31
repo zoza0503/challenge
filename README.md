@@ -58,25 +58,7 @@ Or just simply install it by running following command:
 
 Next is to add selenium-standalone into wdio.conf.js in order to use it
 
-**export.config = {    
-    services: [
-        ['selenium-standalone', {
-            logPath: 'logs',
-            installArgs: {
-                drivers: {
-                    chrome: { version: '85.0.4183.83' },
-                    firefox: { version: '0.26.0' }
-                }
-            },
-            args: {
-                drivers: {
-                    chrome: { version: '85.0.4183.83' },
-                    firefox: { version: '0.26.0' }
-                }
-            },
-        }]
-    ],    
-};**
+[![first.png](https://i.postimg.cc/htKsQvVW/first.png)](https://postimg.cc/D8YLt2CB)
 
 NOTE: Above, both Chrome & Firefox setups added, since that both browser are added by default
 
