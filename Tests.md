@@ -22,8 +22,17 @@ Scenario:
 
 Find all containers, find all product images, and confirm that they are 7 each
 
+# Fourth Task - Verify products number displayed
+
+Scenario:
+
+Confirm search input field present and save into .text file - achieved that only first product insert in file
 
 
+# Fifth Task - Choose product, and go all through buying procedure
 
+Scenario:
+
+Choose product, verify all elements present, open popup (iFrame), change quantity, color, size, checkout all steps (including logIn), and finish buying process
 
 

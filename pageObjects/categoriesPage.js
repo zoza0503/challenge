@@ -27,14 +27,10 @@ class CategoriesPage {
   }
 
   savingInFile() {
-    const products = $$('div.product-container a.product-name');
+    const product = $(challengeSignupSelectors.productsAfterSearch).getText();
 
-    products.forEach((product) => {
-      const current = product.getText();
-
-      fs.writeFile('wettbasis/test_data/test', current, function(err) {
-        if (err) throw err;
-      });
+    fs.writeFile('wettbasis/test_data/test', product, function(err) {
+      if (err) throw err;
     });
   }
 }
