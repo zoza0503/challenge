@@ -24,4 +24,9 @@ module.exports.challengeSignupSelectors = {
   aliasAddress: 'input#alias',
   postalCode: 'input#postcode',
   logOutButton: '//nav//div[@class="header_user_info"]//a[@title="Log me out"]',
+  categoryChosen: '//div[@id="center_column"]//ul//li//a[contains(text(),"',
+  productImage: 'ul#homefeatured li div.product-container a img',
+  productContainers: 'ul#homefeatured li div.product-container',
+  searchField: 'input#search_query_top',
+  searchButton: 'form#searchbox button[class*="button-search"]',
 };
