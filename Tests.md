@@ -35,4 +35,9 @@ Scenario:
 
 Choose product, verify all elements present, open popup (iFrame), change quantity, color, size, checkout all steps (including logIn), and finish buying process
 
+# Sixth Task - Create fail test, save screenshot and send it on mail address
 
+Scenario:
+
+Created fail test. Added into main config setup for creating screenshots upon test fails.
+Did not achieve mail sending via webdriver.io

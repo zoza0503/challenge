@@ -22,5 +22,14 @@ const localConfig = {
     browser.maximizeWindow();
   },
 };
+afterTest: function (
+    test,
+    context,
+    { error, result, duration, passed, retries }
+  ) {
+    if (error) {
+      browser.takeScreenshot(); 
+    }
+  },
 
 module.exports.config = Object.assign(config, localConfig);
